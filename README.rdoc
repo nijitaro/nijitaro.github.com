@@ -7,7 +7,7 @@
          \/_/\/_/\/_____/\/_/\/_/   \/_/   \/_/    \/_____/\/_/\/_/   \/_/
 
 
-* HomePage : http://hokypoky.info/
-* Blog : http://hokypoky.info/blog/
-* Repositories : http://git.hokypoky.info/
+* HomePage : http://hokypoky.info
+* Blog : http://hokypoky.info/blog
+* Repositories : http://git.hokypoky.info
 * Twitter : http://twitter.com/nijitaro
