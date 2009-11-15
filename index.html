@@ -3,18 +3,207 @@
  
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<title>maniji</tiel> 
+
+<title>CODE HOKYPOKY</tiel> 
+
 <style type="text/css"> 
-* {margin: 0; padding: 0;}
-html,body {height: 100%;}
-body { background: #111; text-shadow: 0px 1px #333; }
-div { position: absolute; bottom: 20px; right: 20px; }
+/**
+ * initialization
+ */
+img,p, blockquote,h1, h2, h3, h4, h5, h6,div,form, fieldset, textarea,ul, ol, dl
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+li {
+	padding-left: 1.0em;
+}
+ul, ol { list-style: none; }
+
+body {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+th{
+	text-align: left;
+	font-weight: normal;
+}
+
+
+/**
+ * global Setting
+ */
+body {
+	background: #3a3a3a url(images/bg.png) repeat-y left top;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "Courier";
+	line-height: 21px;
+}
+
+h1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	height: 165px;
+	background: transparent url(images/sitetitle.png) no-repeat left top;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+h2 span {
+	padding: 3px 10px;
+	background: #d9ff3f;
+	color: #000000;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+a {
+	color: #ffffff;
+	border-bottom: 1px solid #d9ff3f;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px dotted #d9ff3f;
+}
+
+/**
+ * layout & detail
+ */
+#mainContent {
+	position: absolute;
+	width: 870px;
+	left: 60px;
+	top: 60px;
+	background: transparent url(images/bg-list.png) repeat left top;
+}
+.section {
+	float: left;
+	width: 280px;
+	padding-right: 10px;
+}
+.section li {
+	margin-bottom: 21px;
+}
+.section li li {
+	margin-bottom: 0;
+}
 </style> 
+
 </head> 
  
 <body> 
-<table width="100%" height="100%"><tr><td align="center" valign="center"><h1>NIJITARO.GitHub</h1></td></tr></table> 
-<div>© HOKYPOKY.</div> 
+	<h1>CODE HOKYPOKY</h1>
+
+<div id="mainContent">
+<section>
+<!--
+========================================
+	Projects
+========================================
+-->
+	<div class="section">
+	<h2><span>Projects</span></h2>
+	<ul>
+		<li>
+			<h3>Objective-C</h3>
+			<ul>
+				<li><a href="#">Chrono N°1 - Colour</a></li>
+				<li><a href="#">Chrono N°2 - Colour Analog</a></li>
+			</ul>
+		</li>
+		<li>
+			<h3>Processing (Arduino)</h3>
+			<ul>
+				<li><a href="#">Clock</a></li>
+			</ul>
+		</li>
+		<li>
+			<h3>JavaScript</h3>
+			<ul>
+				<li><a href="#">multicol (jQuery Plugin)</a></li>
+				<li><a href="#">util.js (jQuery Plugin)</a></li>
+			</ul>
+		</li>
+		<li>
+			<h3>Ruby (on Rails)</h3>
+			<ul>
+				<li><a href="#">Agent</a></li>
+			</ul>
+		</li>		
+	</ul>
+	</div>
+</section>
+<section>
+<!--
+========================================
+	Contact
+========================================
+-->
+	<div class="section">
+	<h2><span>Contact</span></h2>
+	<ul>
+		<li>
+			<h3>Contact me</h3>
+			<ul>
+				<li>use github :)</li>
+			</ul>
+		</li>
+		<li>
+			<h3>Web Site</h3>
+			<ul>
+				<li>HOKYPOKY - <a href="http://hokypoky.info/" target="_blank">http://hokypoky.info/</a></li>
+				<li>nijitaro.com - <a href="nijitaro.com/" target="_blank">nijitaro.com/</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</section>
+<!--
+========================================
+	about
+========================================
+-->
+	<div class="section">
+	<h2><span>About</span></h2>
+	<ul>
+		<li>
+			<h3>nijitaro</h3>
+			<ul>
+				<li>1983.07.09 - Utsunomiya (Japan)</li>
+				<li>1991.11.15 - Amsterdam (Holland)</li>
+				<li>1996.04.01 - Saulgau (Germany)</li>
+				<li>1999.04.01 - Yokohama (Japan)</li>
+				<li>2004.09.09 - Roppongi (Japan)</li>
+				<li>2008.02.20 - Shinjuku (Japan)</li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Programmer, Technical director<br />
+			  at <a href="http://www.4digit.jp/" target="_blank">FOURDIGIT Inc.</a></li>
+			</ul>
+		</li>
+		<li>
+			<ul>
+				<li>Creative Director at <a href="http://maniji.com/" target="_blank">Maniji</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</section>
+</div><!-- / #mainContent -->
+
 </body> 
  
 </html>
