@@ -9,5 +9,5 @@
 
 * HomePage : http://hokypoky.info
 * Blog : http://hokypoky.info/blog
-* Repositories : http://git.hokypoky.info
+* Repositories : http://code.hokypoky.info
 * Twitter : http://twitter.com/nijitaro
